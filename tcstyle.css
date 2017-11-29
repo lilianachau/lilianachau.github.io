@@ -1,0 +1,26 @@
+body {
+    background: #3a0000;
+    margin:0;
+    padding: 0;
+}
+
+.cup{
+    postition: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 150px;
+    height:160px;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cup:before{
+    
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    height: 30px;
+}
