@@ -13,8 +13,8 @@ ul {
 }
 
 ul li {
-    float:left;
-    width: 200px;
+    float: left;
+    width: 150px;
     height: 40px;
     background-color:black;
     opacity:.8;
@@ -27,10 +27,13 @@ ul li a {
     text-decoration: none;
     color:white;
     display: block;
+    color:#A76866;
+    font-family: serif;
 }
 
 ul li a:hover{
-    background-color: green;
+    background-color: #724241;
+    border-width: thin
 }
 
 ul li ul li {
@@ -43,6 +46,8 @@ ul li:hover ul li{
 }
     
 h1 {
-    text-align: center
+    text-align: center;
+    color:#612826;
+    font-family: serif;
     
 }
