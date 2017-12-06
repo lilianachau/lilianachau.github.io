@@ -51,3 +51,10 @@ h1 {
     font-family: serif;
     
 }
+
+h2 {
+    text-align:center;
+    color:#612826;
+    font-family: serif;
+    float:left;
+}
