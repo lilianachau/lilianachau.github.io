@@ -175,24 +175,37 @@ body{
    
    p {
        text-align: center;
+       margin-right:30%;
+       margin-left:30%;
        font-family: serif;
        color: white;
        
    }
    
-   #gtkm{
-       width:100%;
-       
-   }
    
    #text {
        float:center;
-       
    }
    
    
    #picture {
-       float:center;
-       width:-350px;
-       height:450px;
+
+       height:400px;
+       width:500px;
+       margin:auto;
+       padding-right:250px;
    }
+   
+   #boxes {
+       font-family: serif
+   }
+
+    .box h3 a{
+        padding-left:100px;
+        padding-right:100px;
+        background-color:#926A6A;
+        opacity:.8;
+        text-decoration: none;
+        color:black;
+    }
+   

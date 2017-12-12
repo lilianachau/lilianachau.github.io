@@ -1,0 +1,80 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background: url("https://i.imgur.com/QPy04RW.jpg");
+    }
+    
+    /*Global*/
+    .container{
+        width:80%;
+        margin:auto;
+        overflow:hidden;
+    }
+    
+     ul{
+        margin:0;
+        padding:0;
+    }
+    
+        
+    
+    /*Header*/
+    header{
+        background:#120B0B;
+        color:#ffffff;
+        font-family: serif;
+        padding-top:30px;
+        opacity:.8;
+        min-height:70px;
+        border-bottom:#926A6A 3px solid;
+    }
+    
+    header a{
+        color:#ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    
+    header li{
+        float: left;
+        display:inline;
+        padding: 0 20px 0 20px;
+    }
+    
+    header #branding{
+        float:left;
+    }
+    
+    header #branding{
+        float:left;
+    }
+    
+    header #branding h1{
+        margin:0;
+    }
+    
+    header nav{
+        float:right;
+        margin-top: 10px;
+    }
+    
+    header .highlight, header .current a{
+        color:#926A6A;
+        font-weight:bold;
+        
+    }
+    
+    header a:hover{
+        color:#cccccc;
+        font-weight:bold;
+    }
+    
+     footer{
+        padding:20px;
+        margin-top:20px;
+        color:#ffffff;
+        background-color: #926A6A;
+        text-align: center;
+    }

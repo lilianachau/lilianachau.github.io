@@ -126,3 +126,23 @@ ul li:nth-child(5)
 {
  animation-delay: 1s;   
 }
+
+h1{
+    font-family: serif;
+    text-align: center;
+    transform:translate(0px,90px);
+    opacity:.7;
+    padding-left:200px;
+    padding-right:200px;
+    text-decoration: none;
+    color:white;
+}
+
+h2 {
+    font-family: serif;
+    color:white;
+    text-align: center;
+    transform:translate(0px,500px);
+    opacity:.7;
+    
+}

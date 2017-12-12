@@ -7,6 +7,8 @@
         <meta name="author" content="Liliana Chau">
         <title> Liliana Chau | Welcome</title>
         <link rel='stylesheet' href='newstyle.css'>
+        
+      
     </head>
     
     <body>
@@ -17,9 +19,9 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="newindex.html">Home</a></li>
-                        <li><a href="newindex.html">History</a></li>
-                        <li><a href="newindex.html">Projects</a></li>
+                        <li><a href="newindex.html"><span class="highlight">Home</span></a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="projects.html">Projects</a></li>
                     </ul>
                 </nav>
                 
@@ -76,19 +78,18 @@
         <section id="boxes">
             <div class="container">
                 <div class="box">
-                    <img src="https://i.imgur.com/TD8O2t7.jpg">
-                    <h3>Friends</h3>
+                    <h3><a href = "friends.html">Friends</a></h3>
                     <p>Get to know some of my close friends!</p>
                 </div>
                 
                 <div class="box">
-                    <h3>CSS Styling</h3>
-                    <p>This is an example paragraph</p>
+                    <h3><a href = "family.html">Family</a></h3>
+                    <p>Get to know the people I grew up with</p>
                 </div>
                 
                 <div class="box">
-                    <h3>Graphic Design</h3>
-                    <p>This is an example paragraph</p>
+                    <h3><a href = "sports.html">Sports</a></a></h3>
+                    <p>Get to know my athletic background</p>
                 </div>
                 
             </div>
@@ -96,25 +97,12 @@
         </section>
         
         
-        <script>
-            window.onscroll = function() {myFunction();};
-            var nav = document.getElementById("nav");
-            var sticky = nav.offsetTop;
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    nav.classList.add("sticky");
-                } else {
-                    nav.classList.remove("sticky");
-                }
-            }
-            
-        </script>
+
         
         
-        <footer>
+       <footer>
             <p>Chau Family Inc, Copyright &copy; 2017</p>
         </footer>
-        
     </body>
     
     
