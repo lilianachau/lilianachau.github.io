@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+        <meta charset = "utf-8">
+        <meta name ="viewport" content="width=device-width">
+        <meta name="description" content="All About Me">
+        <meta name="keywords" content= "athletics, academics, idk">
+        <meta name="author" content="Liliana Chau">
+        <title> Liliana Chau | Welcome</title>
+        <link rel='stylesheet' href='newstyle.css'>
+        
+      
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Liliana </span> Chantal Chau</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="newindex.html" title="Home"><span class="highlight">Home</span><t/a></li>
+                        <li><a href="history.html" title="Where I came from">History</li>
+                        <li><a href="projects.html" title="required">Coursework</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            
+            
+        </header>
+        
+        
+
+        
+        
+       <footer>
+            <p>Chau Family Inc, Copyright &copy; 2017</p>
+        </footer>
+    </body>
+    
+    
+    
+    
+    
+</html>
