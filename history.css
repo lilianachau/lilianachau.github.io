@@ -71,7 +71,37 @@ body{
         font-weight:bold;
     }
     
-     footer{
+      /* Showcase */
+    #showcase{
+        min-height: 300px;
+        background:url(https://i.imgur.com/cSxGHwK.jpg) ;
+        
+        text-align:center;
+        color:#ffffff;
+    }
+    
+    #showcase h1{
+        margin-top:100px;
+        font-size:55px;
+        font-family: serif;
+    }
+    
+    h2 {
+       text-align: center;
+       font-family: serif;
+       color: white;
+   }
+   
+   p {
+       text-align: center;
+       margin-right:30%;
+       margin-left:30%;
+       font-family: serif;
+       color: white;
+       
+   }
+   
+footer{
         padding:20px;
         margin-top:20px;
         color:#ffffff;
