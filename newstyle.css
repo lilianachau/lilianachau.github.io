@@ -95,12 +95,12 @@ body{
         min-height: 400px;
         background:url(https://i.imgur.com/BrXkUdZ.gif);
         text-align: center;
-        
         color:#ffffff;
     }
     
     #showcase h2{
-        margin-top:100px;
+        text-align:center;
+        margin-top: 80px;
         font-size:55px;
         font-family: serif;
         border-style:solid;
@@ -179,6 +179,7 @@ body{
        text-align: center;
        font-family: serif;
        color: white;
+       text-shadow: 2px 2px #926A6A;
    }
    
    p {
@@ -215,5 +216,10 @@ body{
         opacity:.8;
         text-decoration: none;
         color:black;
+    }
+    
+    #gallery{
+        font-size: 30px;
+        text-shadow: 2px 2px #161616;
     }
    
